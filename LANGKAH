@@ -1,0 +1,118 @@
+```html
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Misi Wira Kebersihan</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #eaf8ff;
+      color: #344054;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px 15px;
+      background: linear-gradient(135deg, #a8e6cf, #b8e4ff, #ffd6e7);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: #24527a;
+      font-size: clamp(24px, 4vw, 36px);
+    }
+
+    header p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 25px auto;
+      padding: 0 15px;
+    }
+
+    .slide-box {
+      overflow: hidden;
+      background: white;
+      padding: 10px;
+      border-radius: 18px;
+      box-shadow: 0 5px 18px #00000015;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 75vh;
+      min-height: 500px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 18px 5px;
+      padding: 12px 20px;
+      background: #ff8fab;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+    }
+
+    .button:hover {
+      background: #f56f98;
+    }
+
+    footer {
+      padding: 20px;
+      color: #52677d;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🧼 Misi Wira Kebersihan 🪥</h1>
+    <p>Cabaran Penjagaan Diri Remaja</p>
+    <p>Mari membaca, memahami dan menjadi wira kebersihan!</p>
+  </header>
+
+  <main>
+    <h2>📚 Bahan Bacaan Interaktif</h2>
+
+    <div class="slide-box">
+      <iframe
+        src="./Hygiene_Hero_Dashboard.pdf"
+        title="Bahan bacaan Misi Wira Kebersihan">
+      </iframe>
+    </div>
+
+    <a
+      class="button"
+      href="./Hygiene_Hero_Dashboard.pdf"
+      target="_blank"
+      rel="noopener">
+      📖 Buka Bahan Bacaan
+    </a>
+
+  </main>
+
+  <footer>
+    <p>🌟 Jaga Kebersihan Diri, Hidup Lebih Sihat! 🌟</p>
+  </footer>
+
+</body>
+</html>
+```
